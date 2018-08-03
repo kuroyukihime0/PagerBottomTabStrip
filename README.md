@@ -1,59 +1,52 @@
-# PagerBottomTabStrip	[![Build Status](https://travis-ci.org/tyzlmjj/PagerBottomTabStrip.svg?branch=dev)](https://travis-ci.org/tyzlmjj/PagerBottomTabStrip)	[ ![Download](https://api.bintray.com/packages/tyzlmjj/maven/pager-bottom-tab-strip/images/download.svg) ](https://bintray.com/tyzlmjj/maven/pager-bottom-tab-strip/view)
+# PagerBottomTabStrip	[![Build Status](https://travis-ci.org/tyzlmjj/PagerBottomTabStrip.svg?branch=master)](https://travis-ci.org/tyzlmjj/PagerBottomTabStrip)	[ ![Download](https://api.bintray.com/packages/tyzlmjj/maven/pager-bottom-tab-strip/images/download.svg) ](https://bintray.com/tyzlmjj/maven/pager-bottom-tab-strip/view)
 
-PagerBottomTabStrip 是一个基本按谷歌Material Design规范完成的安卓底部导航栏控件
+PagerBottomTabStrip **V2** 现在除了支持[Material Design规范](https://www.google.com/design/spec/components/bottom-navigation.html)的样式以外，增强其扩展性，并且更加方便的适配常用的ViewPager
 
-官方设计规范：https://www.google.com/design/spec/components/bottom-navigation.html
 
-这个仓库是官方设计规范还没出来的时候就创建了,原来是模仿了微信的底部导航栏，现在完全重构遵照官方的规范,并上传到中央库。旧的项目代码存放在`old`分支中了
-
+代码内部结构已经完全不一样了，不过使用方式跟V1版本类似，具体细节请看：
 [使用指南](https://github.com/tyzlmjj/PagerBottomTabStrip/wiki/%E4%BD%BF%E7%94%A8%E6%8C%87%E5%8D%97)
 
+也可以下载[DEMO.apk](https://github.com/tyzlmjj/PagerBottomTabStrip/releases/download/2.2.5/Demo.apk)
 
-##实现效果图
+## 实现效果图
 
-![PagerBottomTabStrip](/img/demo.gif "PagerBottomTabStrip")
-
-|![PagerBottomTabStrip](/img/demo1.gif "PagerBottomTabStrip")|![PagerBottomTabStrip](/img/demo2.gif "PagerBottomTabStrip")|
+|![horizontal](/img/demo.png "horizontal")|![vertical](/img/demo8.png "vertical")|
 |---|---|
-|![PagerBottomTabStrip](/img/demo3.gif "PagerBottomTabStrip")|![PagerBottomTabStrip](/img/demo4.gif "PagerBottomTabStrip")|
+|![Material 1](/img/demo1.gif "Material 1")|![Material 2](/img/demo2.gif "Material 2")|
+|![Material 3](/img/demo3.gif "Material 3")|![Material 4](/img/demo4.gif "Material 4")|
 
+## 自定义扩展例子
 
-##引入库
+|Library中已经实现的一个最普通的效果|
+|---|
+|![PagerBottomTabStrip](/img/demo5.gif "PagerBottomTabStrip")|
+
+|Demo中的例子||
+|---|---|
+|![PagerBottomTabStrip](/img/demo7.png "PagerBottomTabStrip")|![PagerBottomTabStrip](/img/demo6.png "PagerBottomTabStrip")|
+
+## 引入库
 
 for Gradle:
 ```
-compile 'me.majiajie:pager-bottom-tab-strip:1.0.0'
+compile 'me.majiajie:pager-bottom-tab-strip:2.2.5'
 ```
 
-and for Maven:
-```
-<dependency>
-  <groupId>me.majiajie</groupId>
-  <artifactId>pager-bottom-tab-strip</artifactId>
-  <version>1.0.0</version>
-  <type>pom</type>
-</dependency>
-```
-
-##联系我
-
-**Email:** tyzl931019@gmail.com
+## 联系我
 
 **QQ**: 809402737
 
 木有微博、推特！
 
-##错误反馈
+## 错误反馈
 
 这个库有BUG？请点这里 [Github Issues](https://github.com/tyzlmjj/PagerBottomTabStrip/issues)
 
-代码里没BUG的程序员都太年轻，又或者……
-
-##LICENSE
+## LICENSE
 
 PagerBottomTabStrip is released under the [Apache 2.0 license](/LICENSE).
 ```
-Copyright 2016 JiaJie Ma
+Copyright 2016 MJJ
 
 Licensed under the Apache License, Version 2.0 (the "License");
 you may not use this file except in compliance with the License.
